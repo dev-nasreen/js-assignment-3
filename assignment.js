@@ -1,7 +1,11 @@
+
+// https://github.com/dev-nasreen/js-assignment-3
+
+
 ///=========================================xxxxxxx=================================//
-                                //১. kilometerToMeter
+//১. kilometerToMeter
 ///=========================================xxxxxxx=================================//
-function kilometerToMeter(kilometer){
+function kilometerToMeter(kilometer) {
     let meter = kilometer * 1000;
     return meter;
 }
@@ -13,10 +17,10 @@ let result = kilometerToMeter(diffLength[1]); */
 console.log(result);*/
 
 ///=========================================xxxxxxx=================================//
-                                //২. budgetCalculator
+//২. budgetCalculator
 ///=========================================xxxxxxx=================================//
 
-function budgetCalculator(watch, mobile, laptop){
+function budgetCalculator(watch, mobile, laptop) {
     let watchPrice = 50;
     let mobilePrice = 100;
     let laptopPrice = 500;
@@ -25,7 +29,7 @@ function budgetCalculator(watch, mobile, laptop){
     totalMobilePrice = mobile * mobilePrice;
     totalLaptopPrice = laptop * laptopPrice;
 
-    totalCost = totalWatchPrice + totalMobilePrice +  totalLaptopPrice;
+    totalCost = totalWatchPrice + totalMobilePrice + totalLaptopPrice;
     return totalCost;
 }
 
@@ -33,20 +37,20 @@ function budgetCalculator(watch, mobile, laptop){
 console.log(totalBudget); */
 
 ///=========================================xxxxxxx=================================//
-                                //৩. hotelCost
+//৩. hotelCost
 ///=========================================xxxxxxx=================================// 
 
-function hotelCost(days){
+function hotelCost(days) {
     var rent = 0;
-    if(days <=10){
+    if (days <= 10) {
         rent = days * 100;
-    }else if (days <= 20){
+    } else if (days <= 20) {
         var first10days = 10 * 100;
-        var remaining = days -10;
+        var remaining = days - 10;
         var second10days = remaining * 80;
         rent = first10days + second10days;
-        
-    }else{
+
+    } else {
         var first10days = 10 * 100;
         var second10days = 10 * 80;
         var remaining = days - 20;
@@ -60,7 +64,7 @@ function hotelCost(days){
 console.log(totalCost); */
 
 ///=========================================xxxxxxx=================================//
-                                //৪. megaFriend
+//৪. megaFriend
 ///=========================================xxxxxxx=================================//
 
 function megaFriend(friendsName) {
