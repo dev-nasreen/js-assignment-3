@@ -2,23 +2,21 @@
 // https://github.com/dev-nasreen/js-assignment-3
 
 
-///==============================xxxxxxx=============================//
+///========================xxxxxxx=============================//
 //১. kilometerToMeter
-///=================================xxxxxxx===========================//
+///========================xxxxxxx===========================//
 function kilometerToMeter(kilometer) {
     let meter = kilometer * 1000;
     return meter;
 }
 
-/*let diffLength = [2, 3, 4, 5, 6, 7]
-let result = kilometerToMeter(diffLength[1]); */
-
 /*let result = kilometerToMeter(5);
 console.log(result);*/
 
-///============================xxxxxxx===========================//
+
+///==========================xxxxxxx===========================//
 //২. budgetCalculator
-///==============================xxxxxxx========================//
+///==========================xxxxxxx========================//
 
 function budgetCalculator(watch, mobile, laptop) {
     let watchPrice = 50;
@@ -36,9 +34,9 @@ function budgetCalculator(watch, mobile, laptop) {
 /*let totalBudget = budgetCalculator(5, 4, 2);
 console.log(totalBudget); */
 
-///=====================xxxxxxx=================================//
+///=====================xxxxxxx============================//
 //৩. hotelCost
-///=========================xxxxxxx==============================// 
+///====================xxxxxxx==============================// 
 
 function hotelCost(days) {
     var rent = 0;
